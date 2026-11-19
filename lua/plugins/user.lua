@@ -52,6 +52,14 @@ return {
     },
   },
 
+  --  blink.cmp options
+  {
+    "saghen/blink.cmp",
+    opts = {
+      signature = { enabled = true }, -- show overloads
+    },
+  },
+
   --
   -- -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
